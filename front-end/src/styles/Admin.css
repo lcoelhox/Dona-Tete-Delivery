@@ -1,0 +1,193 @@
+.adm-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.adm-form-container {
+  align-items: center;
+  background: none;
+  background-color: unset;
+  border: 0;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  padding: 0;
+  width: 100%;
+}
+
+.accordion {
+  background: none;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 8px 8px 0 0;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+  width: 95%;
+}
+
+.adm-form-title {
+  display: none;
+}
+
+.accordion-false, .accordion-true {
+  align-items: center;
+  background-color: var(--bg-light);
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 5px;
+  width: calc(100% - 10px);
+}
+
+.accordion-false svg {
+  transform: rotate(0deg);
+  transition: 0.3s;
+}
+
+.accordion-true svg {
+  transform: rotate(90deg);
+  transition: 0.3s;
+
+}
+
+.adm-form-false {
+  display: none;
+}
+
+.adm-form-true {
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 0 0 8px 8px;
+  padding: 5px;
+  width: calc(95% - 10px);
+}
+
+.adm-form-false, .adm-form-true, .table-adm-container {
+  max-width: 1200px;
+}
+
+.adm-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.adm-form > label > select {
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #d8d8d8;
+  border-radius: 0;
+  font-size: 1.25em;
+  font-weight: 500;
+  padding: 12px;
+  width: 100%;
+}
+
+.adm-form .finish-btn {
+  margin-top: 20px;
+}
+
+.table-adm-container {
+  width: 95%;
+}
+
+.table-adm {
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 5px;
+  border-spacing: 0 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  width: 100%;
+
+}
+
+.table-adm > tbody > tr > td {
+  height: 30px;
+}
+
+.td-item {
+  background-color: var(--secondary);
+  border-radius: 5px 0 0 5px;
+  text-align: center;
+}
+
+.td-name {
+  background-color: rgb(221, 221, 221);
+  text-align: center;
+}
+
+.td-email {
+  background-color: var(--primary);
+  color: var(--text-light);
+  text-align: center;
+}
+
+.td-role {
+  background-color: var(--tertiary);
+  color: var(--text-light);
+  text-align: center;
+}
+
+.td-button, .td-button button {
+  background-color: var(--quartenary);
+  border: unset;
+  border-radius: 0 5px 5px 0;
+  color: var(--text-light);
+  text-align: center;
+}
+
+.td-button button:hover {
+  cursor: pointer;
+}
+
+@media screen and ( min-width : 650px ) {
+
+  .accordion {
+    display: none;
+  }
+
+  .adm-form-title {
+    color: var(--text-dark);
+    display: block;
+  }
+
+  .adm-form-false, .adm-form-true {
+    display: block;
+    width: 95%;
+  }
+
+  .adm-form {
+    align-items: center;
+    background-color: #fbfffe;
+    border: 1px solid black;
+    border-radius: 5px;
+    flex-direction: row;
+    height: 120px;
+    justify-content: space-evenly;
+  }
+
+  .adm-form > label > .txt-box, .adm-form > label > select {
+    border: 1px solid black;
+    border-radius: 0;
+    font-size: 0.8em;
+    font-weight: 500;
+    padding: 12px;
+    width: 100px;
+  }
+
+  .adm-form > .finish-btn {
+    height: 50px;
+    margin-top: 0;
+  }
+}
+
+@media screen and ( min-width : 900px ) {
+
+  .adm-form > label > .txt-box, .adm-form > label > select {
+    width: 150px;
+  }
+}

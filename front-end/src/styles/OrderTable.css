@@ -1,0 +1,111 @@
+.main-order-table {
+  display: flex;
+  border-radius: 5px;
+  padding: 0%;
+  height: 60px;
+  width: 65%;
+  justify-content:space-between;
+/* align-content: flex-start; */
+  margin-top: 30px;
+margin-left: 8%;
+}
+
+.tr-table{
+
+}
+
+.th-table1 {
+  background-color: var(--secondary);
+/* border: unset; */
+  border-radius: 7px;
+  padding: 2px;
+  width: 50%;
+  text-align: center;
+margin-left: 5px;
+}
+
+.th-table2 {
+  background-color: rgb(221, 221, 221);
+/* border: unset; */
+  border-radius: 7px;
+  padding: 2px;
+  width: 50%;
+  text-align: center;
+}
+
+.th-table3 {
+  background-color:  var(--primary);
+/* border: unset; */
+  color: var(--text-light);
+  border-radius: 7px;
+  padding: 2px;
+  width: 50%;
+  text-align: center;
+}
+
+.th-table4 {
+  background-color: rgb(221, 221, 221);
+border: unset;
+  border-radius: 7px;
+  padding: 2px;
+  width: 50%;
+  text-align: center;
+}
+
+.th-table5 {
+  background-color: var(--secondary);
+/* border: unset; */
+  border-radius: 7px;
+  padding: 2px;
+  width: 80px;
+  text-align: center;
+}
+
+.tot-price {
+background-color: var(--tertiary);
+color: aliceblue;
+border-radius: 7px;
+  padding: 2px;
+  width: 80px;
+  text-align: center;
+}
+
+.tr-table-result1 {
+  border-radius: 7px;
+  padding: 2px;
+  width: 50%;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.tr-table-result2 {
+  border-radius: 7px;
+  padding: 2px;
+  width: 50%;
+  text-align: center;
+margin-left: 5px;
+}
+
+.tr-table-result3 {
+  border-radius: 7px;
+  padding: 2px;
+  width: 50%;
+  text-align: center;
+margin-left: 5px;
+}
+
+.tr-table-result4 {
+  border-radius: 7px;
+  padding: 2px;
+  width: 50%;
+  text-align: center;
+margin-left: 5px;
+}
+
+.tr-table-result5 {
+  border-radius: 7px;
+  padding: 2px;
+  width: 50%;
+  text-align: center;
+margin-left: 5px;
+}
